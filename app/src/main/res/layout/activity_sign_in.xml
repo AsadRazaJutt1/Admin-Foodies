@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_page"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPhone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_smartphone_black_24dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:paddingLeft="5dp"
+            android:text="03224578466"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="34sp"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock__24dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="5dp"
+            android:text="2723"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="34sp"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true" />
+
+        <TextView
+            android:id="@+id/forget_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:onClick="forget_password"
+            android:text="Forget password"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+
+        />
+</RelativeLayout>

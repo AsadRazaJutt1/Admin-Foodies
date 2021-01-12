@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "29319432936",
+    "firebase_url": "https://foodie-app-f787c-default-rtdb.firebaseio.com",
+    "project_id": "foodie-app-f787c",
+    "storage_bucket": "foodie-app-f787c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29319432936:android:a122c1aefc81df6822d75d",
+        "android_client_info": {
+          "package_name": "com.example.adminfoodies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29319432936-q1t7h3778qhamres6irv7tca38481taq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adminfoodies",
+            "certificate_hash": "19a33f1645fc3680cdfcc0cc3a9df13504d7e53f"
+          }
+        },
+        {
+          "client_id": "29319432936-674odfomnak0md1vskmopveb9chueqnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFas2thzGZrGwEDR8o4fFSHL_c_6aJfbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29319432936-674odfomnak0md1vskmopveb9chueqnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29319432936:android:4f2e215ec58d654322d75d",
+        "android_client_info": {
+          "package_name": "com.example.restaurantfoodies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29319432936-jcpegnu5mbkgrtpj0cjk2igh5a5lrdu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.restaurantfoodies",
+            "certificate_hash": "19a33f1645fc3680cdfcc0cc3a9df13504d7e53f"
+          }
+        },
+        {
+          "client_id": "29319432936-674odfomnak0md1vskmopveb9chueqnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFas2thzGZrGwEDR8o4fFSHL_c_6aJfbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29319432936-674odfomnak0md1vskmopveb9chueqnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29319432936:android:997fcb45e4331a4f22d75d",
+        "android_client_info": {
+          "package_name": "example.androidfoodie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29319432936-bf7f0t405i2lg6qc3a34bh7afl6tbovb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.androidfoodie",
+            "certificate_hash": "60409bb49497b9e4d1218b07c018068e36b8446d"
+          }
+        },
+        {
+          "client_id": "29319432936-gu1pi5kbsaqa67cmbp2uk96qoeflqmvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.androidfoodie",
+            "certificate_hash": "19a33f1645fc3680cdfcc0cc3a9df13504d7e53f"
+          }
+        },
+        {
+          "client_id": "29319432936-qf3vup5igavj0et9mgngjk1mpq1hvh0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.androidfoodie",
+            "certificate_hash": "7e14c3d4e5df311538c644eb740a5b0cf967e4a1"
+          }
+        },
+        {
+          "client_id": "29319432936-674odfomnak0md1vskmopveb9chueqnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFas2thzGZrGwEDR8o4fFSHL_c_6aJfbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29319432936-674odfomnak0md1vskmopveb9chueqnq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

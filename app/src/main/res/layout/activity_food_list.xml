@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_page"
+    tools:context=".FoodList">
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchBar"
+        android:layout_alignParentTop="true"
+        app:mt_speechMode="false"
+        app:mt_hint="Enter your Food"
+        app:mt_maxSuggestionsCount="10"
+        app:mt_placeholder="Search Food"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_food"
+        android:scrollbars="vertical"/>
+    <!--        />-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        >-->
+
+
+<!--        <TextView-->
+
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/timing"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginBottom="50dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Timing" />-->
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/fabFood"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_above="@+id/timing"-->
+<!--            android:padding="5dp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:backgroundTint="@android:color/white"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            app:srcCompat="@drawable/ic_add_black_24dp"-->
+<!--            tools:ignore="VectorDrawableCompat" />-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+<!--    </RelativeLayout>-->
+</RelativeLayout>

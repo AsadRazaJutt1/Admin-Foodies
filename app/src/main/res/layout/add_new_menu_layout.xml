@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/home_page"
+    android:padding="30dp"
+    app:cardElevation="60dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:elevation="15dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtNameMenuUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Menu Name"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="34sp"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true" />
+<!--        <com.rengwuxian.materialedittext.MaterialEditText-->
+<!--            android:id="@+id/edtMenuTimingUpdate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:hint="08:00AM-11:00PM"-->
+<!--            android:inputType="text"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textColorHint="@android:color/black"-->
+<!--            android:textSize="34sp"-->
+<!--            app:met_baseColor="@color/colorPrimary"-->
+<!--            app:met_floatingLabel="highlight"-->
+<!--            app:met_primaryColor="@android:color/black"-->
+<!--            />-->
+        <ImageView
+            android:id="@+id/viewImageUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:elevation="15dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_one" />
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="2dp">-->
+<!--            &lt;!&ndash;                android:weightSum="2"&ndash;&gt;-->
+<!--            <Button-->
+<!--                android:id="@+id/select_image_popup"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/colorPrimary"-->
+<!--                android:text="Select"-->
+<!--                android:textColor="@android:color/white" />-->
+
+<!--            &lt;!&ndash;                <Button&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/upload_image"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="0dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_margin="8dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_weight="1"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:background="@color/colorPrimary"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:text="Upload"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textColor="@android:color/white" />&ndash;&gt;-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="1dp"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/btnUpdateImage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Select"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/btnUpdateMenu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Update"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="1dp">-->
+<!--            <Button-->
+<!--                android:id="@+id/btnUpdateMenu"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="8dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/colorPrimary"-->
+<!--                android:text="Update"-->
+<!--                android:textColor="@android:color/white" />-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</ScrollView>
+
+</androidx.cardview.widget.CardView>

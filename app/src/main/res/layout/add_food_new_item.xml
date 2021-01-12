@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_page"
+    android:elevation="15dp"
+    android:padding="2dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please fill the Information"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtNameFood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Food Name"
+                android:inputType="text"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@android:color/black"
+                android:textSize="34sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@android:color/black"
+                android:textSize="34sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@android:color/black"
+                app:met_singleLineEllipsis="true" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Price"
+                android:inputType="number"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@android:color/black"
+                android:textSize="34sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@android:color/black"
+                app:met_singleLineEllipsis="true" />
+
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtRestCity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="City Name"
+                android:inputType="text"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@android:color/black"
+                android:textSize="34sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@android:color/black"
+                app:met_singleLineEllipsis="true" />
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/viewImage4Food"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:elevation="15dp"-->
+<!--                android:padding="15dp"-->
+<!--                android:src="@drawable/logo_one" />-->
+
+
+            <TextView
+                android:id="@+id/image_Select4Food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Please select a Image from gallery"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:padding="2dp">
+                <!--                android:weightSum="2"-->
+<!--                <Button-->
+<!--                    android:id="@+id/select_image4Food"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="8dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@color/colorPrimary"-->
+<!--                    android:text="Select"-->
+<!--                    android:textColor="@android:color/white" />-->
+
+                <!--                <Button-->
+                <!--                    android:id="@+id/upload_image"-->
+                <!--                    android:layout_width="0dp"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_margin="8dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:background="@color/colorPrimary"-->
+                <!--                    android:text="Upload"-->
+                <!--                    android:textColor="@android:color/white" />-->
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/select_image4Food"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="Select Image"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/update4Food"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="Update"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <!--</ScrollView>-->
+
+    </ScrollView>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="5dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/menu_image"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_page" />
+
+        <ImageView
+            android:id="@+id/dotsForMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:src="@drawable/ic_more_vert_black_24dp" />
+
+        <TextView
+            android:id="@+id/menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/menu_image"
+            android:background="#4f0e0d0e"
+            android:gravity="center"
+            android:text="Name of Menu"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/restaurant_timing"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/menu_name"-->
+<!--            android:layout_marginBottom="0dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Name of Menu"-->
+<!--            android:textColor="@android:color/white"-->
+
+<!--            android:textSize="15dp" />-->
+
+    </RelativeLayout>
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:id="@+id/restaurant_timing"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;           android:layout_below="@id/restaurant_timing"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_alignParentBottom="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_marginTop="140dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_marginBottom="0dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:background="@color/colorPrimary"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:text="Name of Menu"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:textColor="@android:color/white"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:textSize="15dp"android:visibility="visible"&ndash;&gt;-->
+    <!--&lt;!&ndash;             />&ndash;&gt;-->
+    <!--    </RelativeLayout>-->
+</androidx.cardview.widget.CardView>
